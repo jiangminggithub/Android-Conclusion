@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/SvUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_UI_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="TextView" />
+            <Button
+                android:id="@+id/btn_UI_AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="AutoCompleteTextView" />
+
+            <Button
+                android:id="@+id/btn_UI_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btn_UI_RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="RadioButton" />
+
+            <Button
+                android:id="@+id/btn_UI_CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="CheckBox" />
+
+            <Button
+                android:id="@+id/btn_UI_Switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Switch" />
+
+            <Button
+                android:id="@+id/btn_UI_ToggleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="ToggleButton" />
+
+            <Button
+                android:id="@+id/btn_UI_ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="ImageButton" />
+
+            <Button
+                android:id="@+id/btn_UI_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="ImageView" />
+
+            <Button
+                android:id="@+id/btn_UI_ProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="ProgressBar" />
+
+            <Button
+                android:id="@+id/btn_UI_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="SeekBar" />
+
+            <Button
+                android:id="@+id/btn_UI_RatingBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="RatingBar" />
+
+            <Button
+                android:id="@+id/btn_UI_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Spinner" />
+
+            <Button
+                android:id="@+id/btn_UI_Webview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Webview" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

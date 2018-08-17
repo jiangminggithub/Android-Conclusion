@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/iv_Animation_TweenImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/animation_tweendemo_img"/>
+    <Button 
+        android:id="@+id/btn_Animation_tween_AlphaDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Alpha(透明度)"/>
+    <Button 
+        android:id="@+id/btn_Animation_tween_ScaleDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Scale(缩放)"/>
+    <Button 
+        android:id="@+id/btn_Animation_tween_TranslateDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Translate(平移)"/>
+    <Button 
+        android:id="@+id/btn_Animation_tween_RotateDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Rotate(旋转)"/>
+    <Button 
+        android:id="@+id/btn_Animation_tween_TotalDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="混合效果"/>
+
+</LinearLayout>

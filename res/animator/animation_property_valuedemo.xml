@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:interpolator="@android:anim/linear_interpolator"
+    android:duration="3000"
+    android:startOffset="1000"
+    android:repeatMode="restart"
+    android:valueFrom="1"
+    android:valueTo="100"
+    android:valueType="intType">
+    
+<!--
+repeatMode：
+	restart：重新播放
+	reverse:倒叙播放
+  -->
+</animator>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="手势识别【0-9,a-z】"
+        android:textColor="#FF0000"
+        android:textSize="22sp" />
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.gesture.GestureOverlayView>
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_UI_Layout_RelativeLayoutDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc" >
+
+        <EditText
+            android:id="@+id/et_UI_Layout_RelativeLayoutDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="alignParentTop" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_UI_Layout_RelativeLayoutDemo"
+            android:text="确定" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_UI_Layout_RelativeLayoutDemo"
+            android:text="取消" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_UI_Layout_RelativeLayoutDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_UI_Layout_RelativeLayoutDemo" >
+
+        <ImageView
+            android:id="@+id/iv_UI_Layout_RelativeLayoutdemo1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/relativedemo1" />
+
+        <ImageView
+            android:id="@+id/iv_UI_Layout_RelativeLayoutdemo2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/iv_UI_Layout_RelativeLayoutdemo1"
+            android:src="@drawable/relativedemo2" />
+
+        <ImageView
+            android:id="@+id/iv_UI_Layout_RelativeLayoutdemo3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/iv_UI_Layout_RelativeLayoutdemo1"
+            android:src="@drawable/relativedemo3" />
+
+        <ImageView
+            android:id="@+id/iv_UI_Layout_RelativeLayoutdemo4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@id/iv_UI_Layout_RelativeLayoutdemo1"
+            android:layout_centerInParent="true"
+            android:src="@drawable/relativedemo4" />
+
+        <ImageView
+            android:id="@+id/iv_UI_Layout_RelativeLayoutdemo5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/iv_UI_Layout_RelativeLayoutdemo1"
+            android:layout_centerInParent="true"
+            android:src="@drawable/containers_tabhostdemo_imgitem2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#ff0000"
+            android:text="Left-Top"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffff00"
+            android:text="Left-Bottom"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#00ff00"
+            android:text="Right-Top"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#0000ff"
+            android:text="Right-Bottom"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/iv_UI_Layout_RelativeLayoutdemo2"
+            android:background="#abcdef"
+            android:text="toLeftOf →" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/iv_UI_Layout_RelativeLayoutdemo3"
+            android:background="#abcdef"
+            android:text="← toRightOf" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iv_UI_Layout_RelativeLayoutdemo4"
+            android:layout_centerInParent="true"
+            android:background="#abcdef"
+            android:text="above ↓" />
+
+        <TextView
+            android:id="@+id/tv_below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_UI_Layout_RelativeLayoutdemo5"
+            android:layout_centerInParent="true"
+            android:background="#abcdef"
+            android:text="below ↑" />
+
+        <Button
+            android:id="@+id/btn_alignTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_UI_Layout_RelativeLayoutdemo4"
+            android:text="alignTop →" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_toRightOf="@+id/btn_alignTop"
+            android:text="alignRight ↓" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_UI_Layout_RelativeLayoutdemo5"
+            android:layout_alignParentLeft="true"
+            android:text="alignBottom →" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_UI_Layout_RelativeLayoutdemo5"
+            android:layout_below="@+id/tv_below"
+            android:text="↑ alignLeft" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_Files_writeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="在此输入写入文本内容">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_Files_ReadText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_Files_WriteDataStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="写入到内部存储" />
+
+    <Button
+        android:id="@+id/btn_Files_WriteExternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="写入到外部存储" />
+
+    <Button
+        android:id="@+id/btn_Files_ReadDataStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="读取内部存储文件" />
+
+    <Button
+        android:id="@+id/btn_Files_ReadExternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="读取外部存储文件" />
+    
+    <Button
+        android:id="@+id/btn_Files_WriteDataStorageMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="以模式(追加，私有……)写入数据到内部存储" />
+
+</LinearLayout>

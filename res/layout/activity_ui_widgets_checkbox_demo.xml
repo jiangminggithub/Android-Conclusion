@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="爱好："
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="唱歌" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="跳舞" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="绘画" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="钢琴" />
+
+    <Button
+        android:id="@+id/btn_UI_CheckBoxDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button_style"
+        android:onClick="getCheckBox"
+        android:text="提交" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:text="自定义："
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo5"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="android" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo6"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="java 基础" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo7"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="HTML+CSS" />
+
+    <CheckBox
+        android:id="@+id/cbCheckBoxDemo8"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="面向对象 C#" />
+
+</LinearLayout>

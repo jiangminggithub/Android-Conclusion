@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ui_spinnerdemo">
+        <item >软件技术</item>
+        <item >网络技术</item>
+        <item >计算机应用</item>
+        <item >动漫设计</item>
+    </string-array>
+    
+</resources>

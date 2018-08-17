@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+
+            <!-- 填充的颜色 -->
+            <!-- <solid android:color="#58ACED"></solid> -->
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="20dp" />
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+            <gradient 
+                
+                android:angle="90"
+                android:startColor="#C0DEED" 
+                android:endColor="#58ACED" />
+            
+        </shape>
+        
+    </item>
+   
+    <item android:state_pressed="true">
+        
+        <shape android:shape="rectangle">
+            <!-- <solid android:color="#0085B5" /> -->
+			<padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" />
+            <corners android:radius="20dp" />
+            <!-- 
+            android:type="linear"，  即线性渐变
+            android:type="radial"  径向渐变
+             android: type="sweep" 扫描渐变 
+             -->
+            <gradient 
+                android:type="radial"
+                android:gradientRadius="100"
+                android:angle="90" 
+                android:startColor="#3F84B5"
+                android:endColor="#667580" 
+                 />
+        </shape>
+         
+        
+    </item>
+
+</selector>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_UI_ImageView_Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="image-居中显示：gravity=center：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=fitXY-拉伸图片（不按比例）以填充View的宽or高：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo1"
+                android:layout_width="400px"
+                android:layout_height="30px"
+                android:scaleType="fitXY"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=fitStart-按比例拉伸图片，拉伸后图片的高度为View的高度，且显示在View的左边：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo2"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:background="#000000"
+                android:scaleType="fitStart"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=fitCenter-按比例拉伸图片，拉伸后图片的高度为View的高度，且显示在View的中间：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo3"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:background="#000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=fitEnd-按比例拉伸图片，拉伸后图片的高度为View的高度，且显示在View的右边：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo4"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:background="#000000"
+                android:scaleType="fitEnd"
+                android:src="@drawable/login" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=center-原图宽高小于等于View时，居中显示，否在只显示图片中间部分：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo5"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="#000000"
+                android:scaleType="center"
+                android:src="@drawable/login1" />
+            
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=centerCrop-保持纵横比缩放图片，直到填满整个imageview：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/login" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="scaleType=：centerInside-当原图宽高或等于View的宽高时，按原图大小居中显示；反之将原图缩放至View的宽高居中显示：↓"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/imagetest" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="tint=#FFFF00将图片渲染成指定的颜色:↓"
+                android:textColor="#ff0000" />
+            
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="50dp"
+			    android:orientation="horizontal">
+			    <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo8"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:background="#000000"
+                android:src="@drawable/login1" />
+			    
+			    <ImageView
+                android:id="@+id/iv_UI_ImageViewDemo9"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:background="#000000"
+                android:tint="#FFFF00"
+                android:src="@drawable/login1" /> 
+			</LinearLayout>
+           
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

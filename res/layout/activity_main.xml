@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.conclusion.MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="安卓学习示例"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnUI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="UI" />
+
+            <Button
+                android:id="@+id/btnComponent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="四大组件" />
+
+            <Button
+                android:id="@+id/btnPhoneAndSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="电话与短信" />
+
+            <Button
+                android:id="@+id/btnFiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="Files文件操作" />
+
+            <Button
+                android:id="@+id/btnSQLite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="SQLite数据库" />
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="Menu（菜单）" />
+
+            <Button
+                android:id="@+id/btnGesture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="Gesture（手势）" />
+
+            <Button
+                android:id="@+id/btnAsyncTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="AsyncTask(异步任务)" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

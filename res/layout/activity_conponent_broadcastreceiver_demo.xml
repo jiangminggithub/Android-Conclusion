@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_Component_BroadcastReceiverDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="静态广播" />
+
+    <Button
+        android:id="@+id/btn_Component_BroadcastReceiverDemo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态注册" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="屏幕的点亮，关闭，解锁，系统对话等状态"
+        android:textColor="#0000ff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_Component_BroadcastReceiverDemo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="屏幕状态监视(动态注册)" />
+
+    <Button
+        android:id="@+id/btn_Component_BroadcastReceiverDemo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态注销" />
+
+</LinearLayout>

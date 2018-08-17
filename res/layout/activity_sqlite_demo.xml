@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_SQlite_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="人员编号:--"
+        android:textColor="#FF8822"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_SQlite_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="人员姓名:--"
+        android:textColor="#FF8822"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_SQlite_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="人员年龄:--"
+        android:textColor="#FF8822"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_SQLite_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加人员数据" />
+
+    <Button
+        android:id="@+id/btn_SQLite_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询人员数据" />
+
+    <Button
+        android:id="@+id/btn_SQLite_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改人员数据" />
+
+    <Button
+        android:id="@+id/btn_SQLite_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除人员数据" />
+
+</LinearLayout>

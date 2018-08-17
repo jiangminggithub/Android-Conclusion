@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/pb_ProgressBarDemo"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:max="100"/>
+
+    <ProgressBar
+        android:id="@+id/pb_ProgressBarDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="100" />
+
+    <ProgressBar
+        android:id="@+id/pb_ProgressBarDemo2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="100" />
+
+    <ProgressBar
+        android:id="@+id/pb_ProgressBarDemo3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" 
+        android:max="100"/>
+    
+    <TextView 
+        android:id="@+id/tv_UI_ProgressBarDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       />
+    
+    <ProgressBar
+        android:id="@+id/pb_ProgressBarDemo4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:max="100"
+        android:secondaryProgress="100"
+        android:progressDrawable="@drawable/progressbar_color"/>
+    
+    <TextView 
+        android:id="@+id/tv_UI_ProgressBarDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       />
+  
+    <Button
+        android:id="@+id/btn_UI_ProgressBar_Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startProgress"
+        android:background="@drawable/my_button_style"
+        android:layout_margin="5dp"
+        android:text="开始" />
+
+</LinearLayout>

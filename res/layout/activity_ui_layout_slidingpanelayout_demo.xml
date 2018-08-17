@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<!--
+    <android.support.v4.widget.SlidingPaneLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="#ffdd00"
+            android:text="左侧菜单"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCddff"
+            android:text="这是内容"
+            android:textSize="24sp" />
+    </android.support.v4.widget.SlidingPaneLayout>
+    -->
+
+    <android.support.v4.widget.SlidingPaneLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/spl_SlidingPaneLayoutDemo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/lv_SlidingPaneLayout_left"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#DDCCFF"
+            android:layout_gravity="left" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/linl_SlidingPaneLayoutDemo_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </android.support.v4.widget.SlidingPaneLayout>
+    
+    
+
+</LinearLayout>

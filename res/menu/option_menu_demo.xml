@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/optionMenu_item1"
+        android:icon="@drawable/option_ic1"
+        android:showAsAction="never"
+        android:title="红色背景">
+    </item>
+    <item
+        android:id="@+id/optionMenu_item2"
+        android:icon="@drawable/option_ic2"
+        android:showAsAction="never"
+        android:title="绿色背景">
+    </item>
+    <item
+        android:id="@+id/optionMenu_item3"
+        android:icon="@drawable/option_ic3"
+        android:showAsAction="never"
+        android:title="黄色背景">
+    </item>
+    <item
+        android:id="@+id/optionMenu_item4"
+        android:icon="@drawable/option_ic4"
+        android:showAsAction="never"
+        android:title="蓝色背景">
+    </item>
+    <item
+        android:id="@+id/optionMenu_item5"
+        android:icon="@drawable/option_ic5"
+        android:showAsAction="never"
+        android:title="取消">
+    </item>
+
+</menu>

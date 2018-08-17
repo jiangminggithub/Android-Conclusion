@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTextViewDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView Demo" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView 居中" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView 加粗和斜体"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="18895361267" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textColor"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/UI_TextViewDemo_marquee" />
+
+    <TextView
+        android:id="@+id/tvTextViewDemo8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:text="bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb" />
+
+</LinearLayout>

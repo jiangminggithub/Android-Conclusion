@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+    
+    <item android:drawable="@drawable/frameanimation_1" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_2" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_3" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_4" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_5" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_6" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_7" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_8" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_9" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_10" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_11" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_12" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_13" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_14" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_15" android:duration="50"></item>
+    <item android:drawable="@drawable/frameanimation_16" android:duration="50"></item>
+    
+</animation-list>

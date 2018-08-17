@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/Popup_Menu_item1"
+        android:title="透明度动画"/>
+    <item 
+        android:id="@+id/Popup_Menu_item2"
+        android:title="缩放动画"/>
+    <item 
+        android:id="@+id/Popup_Menu_item3"
+        android:title="平移动画"/>
+    <item 
+        android:id="@+id/Popup_Menu_item4"
+        android:title="旋转动画"/>
+    <item 
+        android:id="@+id/Popup_Menu_item5"
+        android:title="混合动画"/>
+
+</menu>

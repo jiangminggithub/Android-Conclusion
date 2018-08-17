@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Service生命周期图"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/service_lifecycle_image" />
+
+    <Button
+        android:id="@+id/btn_component_ServiceDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标准Service" />
+
+    <Button
+        android:id="@+id/btn_component_ServiceDemo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IntentService" />
+
+    <Button
+        android:id="@+id/btn_component_ServiceDemo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Service" />
+
+</LinearLayout>

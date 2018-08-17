@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnButtonDemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <!-- 透明【（#00000000）|| @android:color/transparent】 色按钮 -->
+
+            <Button
+                android:id="@+id/btnButtonDemo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="透明按钮" />
+
+            <!-- color.xml的#50000000前两位是透明的效果参数从00~99（透明——不怎么透明），后6位是颜色的设置 -->
+
+            <Button
+                android:id="@+id/btnButtonDemo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#10000000"
+                android:text="半透明按钮" />
+
+            <Button
+                android:id="@+id/btnButtonDemo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher"
+                android:text="背景图片按钮"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnButtonDemo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="颜色设置"
+                android:textColor="#FF00ff" />
+
+            <!-- xmlOnClick -->
+
+            <Button
+                android:id="@+id/btnButtonDemo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="xmlOnClick"
+                android:text="xml-Onclick()" />
+
+            <!-- 自定义onclick内部类监听类 -->
+
+            <Button
+                android:id="@+id/btnButtonDemo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="内部类OnClick()" />
+
+            <!--
+        Activity继承View.OnClickListener，由Activity实现OnClick(View view)方法，
+                    在OnClick(View view)方法中用switch-case对不同id代表的button进行相应的处理
+            -->
+
+            <Button
+                android:id="@+id/btnButtonDemo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity-OnClick()" />
+
+            <Button
+                android:id="@+id/btnButtonDemo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="内部匿名类OnClick()" />
+            
+             <Button
+                android:id="@+id/btnButtonDemo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybuttonselector"
+                android:layout_margin="5dp"
+                android:text="自定义样式Button" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

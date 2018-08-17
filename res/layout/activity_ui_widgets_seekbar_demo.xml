@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_UI_SeekBar_Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统默认SeekBar当前值：50" />
+
+    <SeekBar
+        android:id="@+id/sb_UI_SeekBarDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:padding="10px"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/tv_UI_SeekBar_Demo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="自定义SeekBar当前值：20" />
+
+    <SeekBar
+        android:id="@+id/sb_UI_SeekBarDemo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/ui_seekbardemo_bg_bar"
+        android:thumb="@drawable/ui_seekbardemo_bar" />
+
+    <TextView
+        android:id="@+id/tv_UI_SeekBar_Demo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="自定义SeekBar2当前值：20" />
+
+    <SeekBar
+        android:id="@+id/sb_UI_SeekBarDemo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:max="100"
+        android:maxHeight="4dp"
+        android:minHeight="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:progress="20"
+        android:progressDrawable="@drawable/ui_seekbardemo_progress"
+        android:thumb="@drawable/ui_seekbardemo_thumb" />
+
+</LinearLayout>

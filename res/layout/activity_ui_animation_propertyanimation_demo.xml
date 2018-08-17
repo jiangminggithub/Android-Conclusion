@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_PropertyAnimation_Animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_Animation_PropertyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/animation_propertydemo_img" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_ObjectAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="ObjectAnimation" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_ValueAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="ValueAnimation" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_SetAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="SetAnimation(混合动画)" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_PropertyValuesHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="PropertyValuesHolder" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_ViewPropertyAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="ViewPropertyAnimation" />
+
+    <Button
+        android:id="@+id/btn_Animation_Property_LayoutBackgroudChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="LayoutBackgroudChange" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_Files_SharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button_style"
+        android:text="SharedPreferences" />
+
+    <Button
+        android:id="@+id/btn_Files_Size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button_style"
+        android:text="容量查询" />
+
+    <Button
+        android:id="@+id/btn_Files_WriteAndRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button_style"
+        android:text="文件的写入与读取" />
+
+</LinearLayout>

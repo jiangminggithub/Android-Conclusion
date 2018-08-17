@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/SvUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_UI_Widgets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Widgets" />
+            
+            <Button
+                android:id="@+id/btn_UI_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Layout" />
+            
+            <Button
+                android:id="@+id/btn_UI_Containers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Containers" />
+            
+            <Button
+                android:id="@+id/btn_UI_Notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Notifications" />
+
+            <Button
+                android:id="@+id/btn_UI_AlertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="AlertDialog" />
+            <Button
+                android:id="@+id/btn_UI_ProgressDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="ProgressDialog" />
+            
+             <Button
+                android:id="@+id/btn_UI_Animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Animation" />
+             <Button
+                android:id="@+id/btn_UI_Toast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button_style"
+                android:layout_margin="5dp"
+                android:text="Toast" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

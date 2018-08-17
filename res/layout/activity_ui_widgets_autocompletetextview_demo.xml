@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="AutoCompleteTextView(自动完成文本)"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoTV_AutoCompleteTextView_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:text="Android" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="MultiAutoCompleteTextView（多文本自动匹配）"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoTV_AutoCompleteTextView_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:text="C#" />
+
+</LinearLayout>

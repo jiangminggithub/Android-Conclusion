@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_UI_Containers_RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="RadioGroup" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="ListView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_GridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="GridView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_ExpandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="ExpandableListView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_ScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="ScrollView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_TabHost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="TabHost" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_SlidingDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="SlidingDrawer" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_Gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="Gallery" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_VideoView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="VideoView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_DialerFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="DialerFilter" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="RecyclerView" />
+
+            <Button
+                android:id="@+id/btn_UI_Containers_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="CardView" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="10dp"
+        android:textSize="16sp"
+        android:textColor="#ff0022"
+        android:text="x=10dp,y=10dp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="50dp"
+        android:textSize="16sp"
+        android:textColor="#119922"
+        android:text="x=50dp,y=50dp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="100dp"
+        android:textSize="16sp"
+        android:textColor="#115599"
+        android:text="x=100dp,y=100dp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="300dp"
+        android:textSize="16sp"
+        android:textColor="#552255"
+        android:text="x=10dp,y=150dp"/>
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="400dp"
+        android:textSize="16sp"
+        android:textColor="#885566"
+        android:text="x=10dp,y=150dp"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="125dp"
+         android:layout_y="180dp"
+         android:text="x=125dp,y=180dp" />
+
+</AbsoluteLayout>

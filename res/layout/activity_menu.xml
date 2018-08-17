@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_MenuDemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="OptionMenu(选项菜单):"
+                android:textColor="#FF0000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="OptionsMenu 的拥有者是Activity，单击手机上的菜单键(Menu)出现， 每个Activity中有且只有一个OptionsMenu,它为整个Activity服务" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="PopupMenu(弹出菜单)"
+                android:textColor="#FF0000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="PopupMenu弹出式菜单 Api必须在11以上，可以为任意View创建弹出式菜单， PopupMenu pMenu = new PopupMenu(this,位置参考的UI控件);" />
+
+            <ImageView
+                android:id="@+id/iv_popMenu_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/animation_tweendemo_img" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ContentMenu(上下文菜单)"
+                android:textColor="#FF0000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="上下文菜单的拥有者是Activity中View,长按（View）控件出现，每个Activity中可以有多个View, 那个View需要显示上下文菜单 需要为该View注册上下文菜单registerForContextMenu(View  view)" />
+
+            <ListView
+                android:id="@+id/lv_menuDemo"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

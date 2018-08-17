@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- RadioButton 选中状态 -->
+    <item 
+        android:drawable="@drawable/containers_rb_checked" 
+        android:state_checked="true">
+    </item>
+    
+    <!-- RadioButton 非选中状态 -->
+    <item 
+        android:drawable="@drawable/containers_rb_unchecked" 
+        android:state_checked="false">
+    </item>
+
+</selector>

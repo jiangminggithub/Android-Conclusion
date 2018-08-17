@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_UI_Layout_LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="LinearLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="RelativeLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_FrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="FrameLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_TableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="TableLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_AbsoluteLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="AbsoluteLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_GridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="GridLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_DrawerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="DrawerLayout" />
+
+            <Button
+                android:id="@+id/btn_UI_Layout_SlidingPaneLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/my_button_style"
+                android:text="SlidingPaneLayout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

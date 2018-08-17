@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/iv_UI_ToggleButtonDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lightoff"/>
+
+    <ToggleButton
+        android:id="@+id/tgb_UI_ToggleButtonDemo"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:checked="false"
+        android:textOn="关灯"
+        android:textOff="开灯" />
+    <ToggleButton   
+        android:id="@+id/tgb_UI_ToggleButtonDemo1"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:checked="false"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/toggle_demo"/> 
+
+</LinearLayout>

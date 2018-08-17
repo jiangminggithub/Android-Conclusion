@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_SQLite_addid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入编号"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_SQLite_addname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入姓名" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_SQLite_addage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入年龄"
+        android:inputType="number" >
+    </EditText>
+
+</LinearLayout>

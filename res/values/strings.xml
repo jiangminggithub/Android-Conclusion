@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android 学习示例</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="UI_TextViewDemo_marquee">
+        跑马灯-你还记得十年前的自己吗？
+        很多人大概都已经忘记十年前自己单纯的模样，有的人，甚至不愿意提起当年的自己，
+        可是你知道吗？十年前的你有没有想过十年后的自己，如果，你知道，十年后的自己会活的如此失败，
+        十年前的你，会不会更加努力？如果，你知道，十年前，你的她，将会是世界上对你独一无二好的人，
+        你是不是会轻易说分手，如果时间可以倒流回十年之前的某天，你想对自己说什么？或者你想做些什么？
+        十年来，你有没有做过让自己后悔的事情？十年来，你还是当初那个单纯的懵懂的少年吗？时间给了我们答案，
+        是的，我们变了，变得越来越陌生，有时候，我们自己都认不出自己，我们甚至想不起十年前的自己……
+   </string>
+   
+    <string-array name="ui_layout_drawerlayoutitems">
+        <item >信息工程系</item>
+        <item >汽车工程系</item>
+        <item >机械工程系</item>
+        <item >经贸管理系</item>
+        <item >数控工程系</item>
+        <item >电气工程系</item>
+        <item >人文系</item>
+    </string-array>
+    
+     <string-array name="ui_layout_sildingpanelayout_items">
+        <item >Android</item>
+        <item >面向对象C#</item>
+        <item >HTML+CSS</item>
+        <item >JAVA基础</item>
+        <item >C语言程序</item>
+        <item >软件工程</item>
+        <item >ASP.NET</item>
+    </string-array>
+     <string name="tween_animation">
+       Tween动画是操作某个控件让其展现出旋转、渐变、移动、缩放的这么一种转换过程，我们成为补间动画。
+     </string>
+     <string name="frame_aniamtion">
+       Frame动画是一系列图片按照一定的顺序展示的过程，和放电影的机制很相似，我们称为逐帧动画。Frame动画可以被定义在XML文件中，也可以完全编码实现。
+     </string>
+     <string name="property_animation">
+       Property属性动画，这个是在Android 3.0中才引进的，以前学WPF时里面的动画机制好像就是这个，它更改的是对象的实际属性，在View Animation（Tween Animation）中，
+                  其改变的是View的绘制效果，真正的View的属性保持不变，比如无论你在对话中如何缩放Button的大小，Button的 有效点击区域还是没有应用动画时的区域，其位置与大小都不变。
+                  而在Property Animation中，改变的是对象的实际属性，如Button的缩放，Button的位置与大小属性值都改变了。而且Property Animation不止可以应用于View，
+                  还可以应用于任何对象。Property Animation只是表示一个值在一段时间内的改变，当值改变时要做什么事情完全是你自己决定的。  
+     </string>
+
+</resources>

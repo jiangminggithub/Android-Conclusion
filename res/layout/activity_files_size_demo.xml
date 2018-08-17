@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_Files_DirectorySize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="全部容量："
+        android:textColor="#FF6200"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_Files_DirectoryAvailSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="可用容量："
+        android:textColor="#FF6200"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_Files_SizeDemo_DataDirectory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内部存储容量" />
+
+    <Button
+        android:id="@+id/btn_Files_SizeDemo_ExternalStorageDirectory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD卡存储容量" />
+
+</LinearLayout>

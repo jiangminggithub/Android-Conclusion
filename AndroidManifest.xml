@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.conclusion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    
+    <!-- Permission 权限配置 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/yin"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!-- Service 服务配置-->
+        <service android:name="com.example.conclusion.Service.MyService"></service>
+        <service android:name="com.example.conclusion.Service.IntentService"></service>
+        <service android:name="com.example.conclusion.Service.CustomService"></service>
+        
+        <!-- Receiver 广播配置 -->
+        <receiver android:name="com.example.conclusion.Receiver.MyReceiver">
+            <intent-filter >
+                <action android:name="my_frist_receiver"/>
+             </intent-filter>
+        </receiver>
+        
+        
+        <!-- 启动界面 -->
+        <activity android:name="com.example.conclusion.activity_intro" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 主界面 -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- SQLite -->
+        <activity
+            android:name="com.example.conclusion.SQLite.activity_SQLite"
+            android:label="SQLiteDemo" >
+        </activity>
+        <!-- AsyncTask -->
+        <activity
+            android:name="com.example.conclusion.AsyncTask.activity_AsyncTaskDemo"
+            android:label="AsyncTaskDemo" >
+        </activity>
+        
+<!-- UI Start  -->
+        <activity
+            android:name="com.example.conclusion.ui.activity_UI"
+            android:label="UI" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.activity_UI_NotificationsDemo"
+            android:label="NotificationsDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.activity_UI_AlertDialogDemo"
+            android:label="AlertDialogDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.activity_UI_ProgressDialogDemo"
+            android:label="ProgressDialogDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.activity_UI_Toast_Demo"
+            android:label="Toast_Demo" >
+        </activity>
+<!-- UI End  -->  
+
+<!-- Animation Start -->
+ 		<activity
+            android:name="com.example.conclusion.ui.animation.activity_UI_Animation"
+            android:label="Animation" >
+        </activity>
+	    <activity
+            android:name="com.example.conclusion.ui.animation.activity_UI_Animation_TweenAnimationDemo"
+            android:label="TweenAnimationDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.animation.activity_UI_Animation_PropertyAnimationDemo"
+            android:label="PropertyAnimationDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui.animation.activity_UI_Animation_FrameAnimationDemo"
+            android:label="FrameAnimationDemo" >
+        </activity>
+<!-- Animation End -->
+
+<!-- Component Start -->  
+ 		<activity
+            android:name="com.example.conclusion.component.activity_Component"
+            android:label="Component" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.component.activity_Cpmponent_ActivityDemo"
+            android:label="ActivityDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.component.activity_Component_ServiceDemo"
+            android:label="ServiceDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.component.activity_Component_BroadcastReceiverDemo"
+            android:label="BroadcastReceiverDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.component.activity_Component_ContentProviderDemo"
+            android:label="ContentProviderDemo" >
+        </activity>
+<!-- Component End -->
+
+<!-- Files Start -->
+		<activity
+            android:name="com.example.conclusion.Files.activity_Files"
+            android:label="Files" >
+        </activity>
+		<activity
+            android:name="com.example.conclusion.Files.activity_Files_SharedPreferencesDemo"
+            android:label="SharedPreferencesDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.Files.activity_Files_SizeDemo"
+            android:label="FilesSizeDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.Files.activity_Files_WriteAndReadDemo"
+            android:label="FilesWriteAndReadDemo" >
+        </activity>
+<!-- Files End -->
+
+<!-- Gesture Start  -->
+        <activity
+            android:name="com.example.conclusion.Gesture.activity_GestureDemo"
+            android:label="GestureDemo" >
+        </activity>
+<!-- Gesture End -->
+
+<!-- Menu Start -->
+		<activity
+            android:name="com.example.conclusion.Menu.activity_Menu"
+            android:label="MenuDemo" >
+        </activity>
+<!-- Menu End -->
+
+<!-- PhoneAndSms Start -->
+		<activity
+            android:name="com.example.conclusion.PhoneAndSms.activity_PhoneAndSms"
+            android:label="PhoneAndSmsDemo" >
+        </activity>
+<!-- PhoneAndSms End -->
+
+<!--  Widgets Start-->
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets"
+            android:label="UI_Widgets" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_TextViewDemo"
+            android:label="TextView" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_AutoCompleteTextViewDemo"
+            android:label="AutoCompleteTextViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_ButtonDemo"
+            android:label="ButtomDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_RadioButtonDemo"
+            android:label="RadioButtonDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_CheckBoxDemo"
+            android:label="CheckBoxDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_SwitchDemo"
+            android:label="SwitchDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_ToggleButtonDemo"
+            android:label="ToggleButtonDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_ImageViewDemo"
+            android:label="ImageViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_ImageButtonDemo"
+            android:label="ImageButtonDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_ProgressBarDemo"
+            android:label="ProgressBarDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_SeekBarDemo"
+            android:label="SeekBarDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_WebViewDemo"
+            android:label="WebViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_RatingBarDemo"
+            android:label="RatingBarDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_widgets_activity.activity_UI_Widgets_SpinnerDemo"
+            android:label="SpinnerDemo" >
+        </activity>
+<!-- Widgets End -->
+
+<!-- Layout Start -->
+		<activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout"
+            android:label="UI_Layout" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_LinearLayoutDemo"
+            android:label="LinearlayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_RelativeLayoutDemo"
+            android:label="RelativeLayoutDemo" >
+        </activity>
+         <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_FrameLayoutDemo"
+            android:label="FrameLayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_TableLayoutDemo"
+            android:label="TableLayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_AbsoluteLayoutDemo"
+            android:label="AbsoluteLayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_GridLayoutDemo"
+            android:label="GridLayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_DrawerLayoutDemo"
+            android:label="DrawerLayoutDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_layout_activity.activity_UI_Layout_SlidingPaneLayoutDemo"
+            android:label="SlidingPaneLayoutDemo" >
+        </activity>
+<!-- Layout End -->
+		
+		
+<!-- Containers start -->
+		<activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers"
+            android:label="UI_Containers" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_RadioGroupDemo"
+            android:label="RadioGroupDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_ListViewDemo"
+            android:label="ListViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_ScrollViewDemo"
+            android:label="ScrollViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_GridViewDemo"
+            android:label="GridViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_TabHostDemo"
+            android:label="TabHostDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_SlidingDrawerDemo"
+            android:label="SlidingDrawerDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_GalleryDemo"
+            android:label="GalleryDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_VideoViewDemo"
+            android:label="VideoViewDemo" >
+        </activity>
+        <activity
+            android:name="com.example.conclusion.ui_containers_activity.activity_UI_Containers_ExpandableListViewDemo"
+            android:label="ExpandableListViewDemo" >
+        </activity>
+<!-- Containers End -->
+    </application>
+
+</manifest>
